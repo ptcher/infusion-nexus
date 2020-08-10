@@ -46,7 +46,7 @@ fluid.tests.nexus.FLUID6541.resourceLoader.testDefs = [
                 event: "{badlyFormedJson}.events.onResourcesLoaded",
                 listener: "jqUnit.assert",
                 args: ["onResourcesLoaded event fires"]
-            },
+            }
         ]
     }
 ];

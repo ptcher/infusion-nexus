@@ -17,7 +17,7 @@ var fluid = require("infusion");
 var tests = [
     "./FLUID6541_HappyPath.js",
     "./FLUID6541_resourceLoader.js",
-    "./FLUID6541_asyncTest.js",
+    "./FLUID6541_asyncTest.js"
 ];
 
 fluid.each(tests, function (path) {
