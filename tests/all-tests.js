@@ -15,12 +15,9 @@ https://raw.githubusercontent.com/fluid-project/infusion-nexus/master/LICENSE.tx
 var fluid = require("infusion");
 
 var tests = [
-    "./BindModelHappyPathTests.js",
-    "./BindModelErrorHandlingTests.js",
-    "./ConstructAndDestroyComponentTests.js",
-    "./NexusUtilsTests.js",
-    "./ReadDefaultsTests.js",
-    "./WriteDefaultsTests.js"
+    "./FLUID6541_HappyPath.js",
+    "./FLUID6541_resourceLoader.js",
+    "./FLUID6541_asyncTest.js",
 ];
 
 fluid.each(tests, function (path) {
